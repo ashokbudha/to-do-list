@@ -128,5 +128,14 @@ padding-left:15px;
 width:10%;
 display:flex;
 align-items:center;
+}
 
+.taskButton button{
+  background-color: #333333;
+  border:none;
+  padding:3px;
+}
+.taskButton button i{
+  color:white;
+  font-size:20px;
 }

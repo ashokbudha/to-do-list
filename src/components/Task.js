@@ -8,7 +8,7 @@ export default function Task({task,index,deleteTask}) {
            
         </div>
         <div className="taskButton">
-            <button onClick={ () => deleteTask(index)}>del</button>
+            <button onClick={ () => deleteTask(index)}><i class="fas fa-trash-alt"></i></button>
         </div>
     </div>
   )
